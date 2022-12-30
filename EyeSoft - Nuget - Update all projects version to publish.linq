@@ -38,9 +38,12 @@ void Main()
 #endregion
 public class HsdkNugetHelper : NugetHelper
 {
-	public HsdkNugetHelper(ICommandLine commandLine) : base(commandLine, @"D:\GitHub\HSDK\Main", "EyeSoft.Hsdk.sln", GetPackages())
+	public HsdkNugetHelper() : this(new CommandLine())
 	{
-		
+	}
+	
+	public HsdkNugetHelper(ICommandLine commandLine) : base(commandLine, @"D:\GitHub\HSDK\Main", "EyeSoft.Hsdk.sln", GetPackages())
+	{		
 	}
 
 	private static IEnumerable<Package> GetPackages()
@@ -375,6 +378,13 @@ public class NugetHelper
 		return $"{version}";
 	}
 
+	public Package FindPackage(FileInfo file)
+	{
+		var package = Packages.SingleOrDefault(y => $"{y.Name}.csproj" == file.Name);
+
+		return package;
+	}
+	
 	private FileInfo FindProject(Package package)
 	{
 		var projects = new DirectoryInfo(basePath)
@@ -384,13 +394,6 @@ public class NugetHelper
 		var project = projects.Single();
 
 		return project;
-	}
-	
-	private Package FindPackage(FileInfo file)
-	{
-		var package = Packages.SingleOrDefault(y => $"{y.Name}.csproj" == file.Name);
-		
-		return package;
 	}
 
 	private bool IsPackage(string name)

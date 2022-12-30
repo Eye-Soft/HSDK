@@ -1,13 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29521.150
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EyeSoft.Core", "Internal\Core\Source\4.0\Core\EyeSoft.Core.csproj", "{4C464A88-7D14-4755-9EBF-82BBE1B168ED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EyeSoft.Core.Test", "Internal\Core\Source\4.5\Core.Test\EyeSoft.Core.Test.csproj", "{9702B58C-F6D0-4A75-A2A8-2F4A847536DD}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EyeSoft.SharpTests.Extensions", "Internal\SharpTestsEx.Extensions\Source\Extensions\EyeSoft.SharpTests.Extensions.csproj", "{F213CB7D-2938-412D-9577-1D59D08753E3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EyeSoft.Core.Test", "Internal\Core\Source\4.5\Core.Test\EyeSoft.Core.Test.csproj", "{9702B58C-F6D0-4A75-A2A8-2F4A847536DD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +21,6 @@ Global
 		{9702B58C-F6D0-4A75-A2A8-2F4A847536DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9702B58C-F6D0-4A75-A2A8-2F4A847536DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9702B58C-F6D0-4A75-A2A8-2F4A847536DD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F213CB7D-2938-412D-9577-1D59D08753E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F213CB7D-2938-412D-9577-1D59D08753E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F213CB7D-2938-412D-9577-1D59D08753E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F213CB7D-2938-412D-9577-1D59D08753E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

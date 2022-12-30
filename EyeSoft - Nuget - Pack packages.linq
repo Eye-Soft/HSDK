@@ -23,4 +23,3 @@ void Main()
 		nugetHelper.Pack(project.Package);
 	}
 }
-

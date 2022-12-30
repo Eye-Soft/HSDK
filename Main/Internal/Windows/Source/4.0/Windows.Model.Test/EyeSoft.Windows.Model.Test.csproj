@@ -7,12 +7,7 @@
   </PropertyGroup>
 
   <PropertyGroup>
-    <TargetFramework>net48</TargetFramework>
-    <SignAssembly>true</SignAssembly>
-    <AssemblyOriginatorKeyFile>J:\EyeSoft.pfx</AssemblyOriginatorKeyFile>
-    <Authors>Matteo Migliore</Authors>
-    <Company>EyeSoft</Company>
-    <Copyright>EyeSoft ©2021</Copyright>
+    <TargetFramework>net7.0-windows</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>

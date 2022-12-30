@@ -1,11 +1,11 @@
 ﻿namespace EyeSoft.Core.Test.Calendar
 {
-    using System;
-    using EyeSoft.Calendar;
-    using Microsoft.VisualStudio.TestTools.UnitTesting;
-    using FluentAssertions;
+	using System;
+	using EyeSoft.Calendar;
+	using Microsoft.VisualStudio.TestTools.UnitTesting;
+	using FluentAssertions;
 
-    [TestClass]
+	[TestClass]
 	public class HolidayFactoryTest
 	{
 		private const string FirstDayOfYear = "First day of year";
