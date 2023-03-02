@@ -75,11 +75,8 @@ Bibliography, resourses used during project development and growing.
 
 Get Started
 
-Team
 
- 
 Matteo Migliore
-Coordinator: Matteo Migliore
 Founder of DevBull - The acadamy to become a software architect - https://devbull.it
 Founder of Sviluppatore Migliore - Courses .NET for companies - https://sviluppatoremigliore.com
 Founder of LEGALDESK - The n°1 software for italian lawyers - https://legaldesk.it
