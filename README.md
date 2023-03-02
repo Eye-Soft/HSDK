@@ -3,10 +3,10 @@ Managed by Eye Soft company.
 Goals
 
 Hyperion Software Development Kit (aka HSDK) is a "real world collection of components" for enterprise application development using the latest technologies:
-- C#, IO, Task Parallel Library
+- C#, IO, Task Parallel Library, LINQPad
 - NHibernate, Entity Framework, RavenDB
 - CommonServiceLocator, Castle Windsor
-- WPF, WCF
+- WPF
 
 It has a multilayered architecture and it's made up of several blocks that interact each other. 
 However, since their loose coupled nature, you can easily replace or extend them without impact the overall functionality of the application.
@@ -77,7 +77,7 @@ Get Started
 
 
 Matteo Migliore
-Founder of DevBull - The acadamy to become a software architect - https://devbull.it
+Founder of DevBull - The academy to become a software architect - https://devbull.it
 Founder of Sviluppatore Migliore - Courses .NET for companies - https://sviluppatoremigliore.com
 Founder of LEGALDESK - The n°1 software for italian lawyers - https://legaldesk.it
 
