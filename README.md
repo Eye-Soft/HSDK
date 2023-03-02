@@ -79,18 +79,9 @@ Team
 
  
 Matteo Migliore
-
 Coordinator: Matteo Migliore
 Founder of DevBull - The acadamy to become a software architect - https://devbull.it
 Founder of Sviluppatore Migliore - Courses .NET for companies - https://sviluppatoremigliore.com
 Founder of LEGALDESK - The n°1 software for italian lawyers - https://legaldesk.it
 
 ![alt tag](https://avatars2.githubusercontent.com/u/432974?s=64&v=4)
-
-
- 
-Michele Vicentini
-
-Contributor: Michele Vicentini
-
-![alt tag](https://avatars2.githubusercontent.com/u/4671775?s=64&v=4)
